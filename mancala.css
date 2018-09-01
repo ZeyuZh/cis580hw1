@@ -1,0 +1,121 @@
+div{
+    box-sizing: border-box;
+}
+
+#board {
+  position: relative;
+  border: 1px solid black;
+
+  width: 1200px;
+  height: 450px;
+}
+
+.column-big {
+  position: absolute;
+  width: 150px;
+  height: 450px;
+  border: 1px solid #666;
+  display: flex;
+  flex-direction: column-reverse;
+  cursor: pointer;
+}
+
+.column-small {
+  position: absolute;
+  width: 150px;
+  height: 225px;
+  border: 1px solid #666;
+  display: flex;
+  flex-direction: column-reverse;
+  cursor: pointer;
+}
+
+
+
+#column-0 {
+  left: 150px;
+  top: 225px;
+}
+#column-1{
+  left: 300px;
+  top: 225px;
+}
+#column-2{
+   left: 450px;
+   top: 225px;
+}
+#column-3{
+    left: 600px;
+    top: 225px;
+}
+#column-4{
+     left: 750px;
+     top: 225px;
+}
+
+#column-5{
+  left: 900px;
+  top: 225px;
+}
+
+
+#column-6{
+  left: 1050px;
+  top: 0;
+}
+
+#column-7{
+  left: 900px;
+  top: 0;
+}
+
+#column-8{
+  left: 750px;
+  top: 0;
+}
+
+#column-9{
+  left: 600px;
+  top: 0;
+}
+
+#column-10{
+  left: 450px;
+  top: 0;
+}
+
+#column-11{
+  left: 300px;
+  top: 0;
+}
+
+
+#column-12{
+  left: 150px;
+  top: 0;
+}
+
+#column-13{
+  left: 0;
+  top: 0;
+}
+
+
+
+.pebble {
+  margin: 1px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  border: 1px solid #444;
+}
+
+#ui {
+  font-size: x-large;
+}
+
+#restart {
+  width: 100px;
+  height: 50px;
+  font-size: x-large;
+}
